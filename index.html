@@ -390,43 +390,38 @@
         <p>© 2026 Lambodar Kala Kendra. All Rights Reserved.</p>
     </footer>
 
-    <script>
-        const murtis = [
-            { 
-                id: 1, 
-                name: "Lalbaugcha Raja Look", 
-                type: "POP", 
-                size: "1.5", 
-                img: "murti1.jpeg" 
-            },
-            { 
-                id: 2, 
-                name: "Peshwai Turban Bappa", 
-                type: "POP", 
-                size: "1.5", 
-                img: "murti2.jpeg" 
-            },
-            { 
-                id: 3, 
-                name: "Mayureshwar (Peacock Avatar)", 
-                type: "POP", 
-                size: "1.5", 
-                img: "murti3.jpeg" 
-            },
-            {id: 4, 
-                name: "MURTI", 
-                type: "POP", 
-                size: "1.5", 
-                img: "murti4.jpeg" },
+    <script>const murtis = [
+    {
+        id: 1,
+        name: "Lalbaugcha Raja Look",
+        type: "POP",
+        size: "1.5",
+        img: "murti1.jpeg"  // <-- 'images/' hata diya
+    },
+    {
+        id: 2,
+        name: "Peshwai Turban Bappa",
+        type: "POP",
+        size: "1.5",
+        img: "murti2.jpeg"  // <-- 'images/' hata diya
+    },
+    {
+        id: 3,
+        name: "Mayureshwar (Peacock Avatar)",
+        type: "POP",
+        size: "1.5",
+        img: "murti3.jpeg"  // <-- 'images/' hata diya
+    },
+    {
+        id: 4,
+        name: "MURTI",
+        type: "POP",
+        size: "1.5",
+        img: "murti4.jpeg"  // <-- 'images/' hata diya
+    }
+    // Baaki sabhi murtiyon ke liye bhi 'images/' hata dein...
+];
                 
-                {id: 5, 
-                name: "MURTI", 
-                type: "POP", 
-                size: "1.5", 
-                img: "murti5.jpeg" }
-            
-        ];
-
         let currentCategory = 'all';
         let currentSize = 'all';
 
